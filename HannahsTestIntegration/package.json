@@ -1,0 +1,21 @@
+{
+  "name": "hannahstestintegration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "oauth:setup": "ts-node scripts/oauth-setup.ts",
+    "get:workspace": "ts-node scripts/get-workspace-id.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "day-ai-sdk": "github:day-ai/day-ai-sdk"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
